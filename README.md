@@ -63,6 +63,6 @@ When one player has sunk all 5 of the other player's boats, a congratulations me
 
 ## Testing
 
-During development, to facilitate testing of the game's functionality towards the endgame we included a 'test_variables()' function. When player 1 is given the name 'test', the board is automatically set with all ships placed and with only one co-ordinate not hit for each of the test players ships.  
+During development, to facilitate testing of the game's functionality towards the endgame we included a 'test_variables()' function. When player 1 is given the name 'test', the board is automatically set with all ships placed and with only one co-ordinate not hit for each of the test player's ships.  
 
 We hope to have caught all behavioural bugs, but please let us know if you find any!
