@@ -63,16 +63,16 @@ When one player has sunk all 5 of the other player's boats, a congratulations me
 #### Using [environment.yml](environment.yml) (recommended)
 
 1. Clone the repository and navigate to the project directory:
-```anacondaprompt
+```
 git clone https://github.com/KonstantinosSpil/Battleships.git
 cd Battleships
 ```
 2. Create conda environment from `environment.yml`:
-```anacondaprompt
+```
 conda env create -f environment.yml
 ```
 3. Activate the environment and open the notebook:
-```anacondaprompt
+```
 conda activate jupyter_battleships
 jupyter-notebook jupyter_battleships.ipynb
 ```
