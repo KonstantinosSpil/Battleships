@@ -12,7 +12,8 @@ The rules for the game can be found [here](Battleships_Rules.pdf).
    1. [Taking turns](#taking-turns)
    1. [Endgame](#endgame)
 2. [Pre-requisites](#pre-requisites)
-3. [Testing](#testing)
+3. [Installation](#installation)
+4. [Testing](#testing)
 
 
 ## Gameplay
@@ -55,11 +56,27 @@ When one player has sunk all 5 of the other player's boats, a congratulations me
 
 ## Pre-requisites
 - Python 3.x
-- IPython 8.15+
-- ipywidgets 8.0.4+
-- getpass 
-- sys
+- Anaconda (recommended for using the `environment.yml` file)
 
+
+## Installation
+#### Using [environment.yml](environment.yml) (recommended)
+
+1. Clone the repository and navigate to the project directory:
+```anacondaprompt
+git clone https://github.com/KonstantinosSpil/Battleships.git
+cd Battleships
+```
+2. Create conda environment from `environment.yml`:
+```anacondaprompt
+conda env create -f environment.yml
+```
+3. Activate the environment and open the notebook:
+```anacondaprompt
+conda activate jupyter_battleships
+jupyter-notebook jupyter_battleships.ipynb
+```
+4. Run all 3 cells in the notebook and the game will begin at the bottom of the notebook.
 
 ## Testing
 
